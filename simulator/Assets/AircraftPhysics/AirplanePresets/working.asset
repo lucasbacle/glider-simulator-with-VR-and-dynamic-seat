@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7e7daa968dbd34478c6d1f8713b1bbe, type: 3}
+  m_Name: working
+  m_EditorClassIdentifier: 
+  centerOfGravity: {x: 0, y: -0.59, z: 0.469}
+  airplaneWeight: 300
+  maxKMH: 175
+  rbLerpSpeed: 0.09
+  maxLiftPower: 3000
+  liftCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -0
+      outSlope: -0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.37026423
+    - serializedVersion: 3
+      time: 0.35560763
+      value: 0.44855562
+      inSlope: 2.4186597
+      outSlope: 2.4186597
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1644037
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.55728227
+      value: 0.9407844
+      inSlope: 0.8450141
+      outSlope: 0.8450141
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0123901
+      value: 0.9122772
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  flapsLiftPower: 100
+  dragFactor: 0.01
+  angularDragFactor: 0.0001
+  flapDragFactor: 0.0005
+  pitchSpeed: 1500
+  rollSpeed: 1500
+  yawSpeed: 1500
+  controlSurfacesEfficiency:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.26096293
+      value: 0.38852188
+      inSlope: 2.316215
+      outSlope: 2.316215
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.08459758
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

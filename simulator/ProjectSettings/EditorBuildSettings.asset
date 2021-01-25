@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/mainMenu.unity
+    guid: f3d5dd7adac134a40b476a2f7c4302ed
+  - enabled: 1
+    path: Assets/Scenes/proceduralFlight.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/realworldlFlight.unity
+    guid: 902d5b3e779252e41b3715bf0d4d956d
+  - enabled: 0
+    path: Assets/Scenes/flocking.unity
+    guid: d7d2664a7ed335a449718989a9fea12d
+  - enabled: 0
+    path: Assets/shaderTest/scene.unity
+    guid: fc340bb412e99754881bc005383d0298
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 703f90f74f8354f4fa444f6ff5403802,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a6c8314f3c2a79741bc6f4378519ee7b,
+      type: 2}

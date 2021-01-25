@@ -1,0 +1,7 @@
+Windows:
+adb exec-out "while true; do screenrecord --bit-rate=2m --output-format=h264 --time-limit 180 -; done" | "C:\Program Files\VideoLAN\VLC\vlc.exe" --demux h264 --h264-fps=60 --clock-jitter=0 -
+
+MAC:
+./adb exec-out "while true; do screenrecord --bit-rate=2m --output-format=h264 --time-limit 180 -; done" | "/Applications/VLC.app/Contents/MacOS/VLC" --demux h264 --h264-fps=60 --clock-jitter=0 -
+
+https://developer.oculus.com/blog/oculus-go-wired-mirroring-how-to/
